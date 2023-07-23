@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Button_LinkButton_and_ImageButton_controls.aspx" />
+    <Content Include="DropDownList_control.aspx" />
     <Content Include="HyperLink_Control.aspx" />
     <Content Include="InputBox.aspx" />
     <Content Include="Web.config" />
@@ -79,6 +80,13 @@
     </Compile>
     <Compile Include="Button_LinkButton_and_ImageButton_controls.aspx.designer.cs">
       <DependentUpon>Button_LinkButton_and_ImageButton_controls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DropDownList_control.aspx.cs">
+      <DependentUpon>DropDownList_control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropDownList_control.aspx.designer.cs">
+      <DependentUpon>DropDownList_control.aspx</DependentUpon>
     </Compile>
     <Compile Include="HyperLink_Control.aspx.cs">
       <DependentUpon>HyperLink_Control.aspx</DependentUpon>
