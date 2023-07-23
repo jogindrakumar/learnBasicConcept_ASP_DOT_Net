@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learnBasicConcept_ASP_DOT_Net", "learnBasicConcept_ASP_DOT_Net.csproj", "{EE0015D5-B5C3-46C3-8A2B-2A30243B57FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0015D5-B5C3-46C3-8A2B-2A30243B57FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0015D5-B5C3-46C3-8A2B-2A30243B57FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0015D5-B5C3-46C3-8A2B-2A30243B57FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0015D5-B5C3-46C3-8A2B-2A30243B57FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F45C4E20-045A-4B73-A1DE-3DEB1A7D20BC}
+	EndGlobalSection
+EndGlobal
