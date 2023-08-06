@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Ado.aspx" />
     <Content Include="Button_LinkButton_and_ImageButton_controls.aspx" />
+    <Content Include="ConnectionStrings.aspx" />
     <Content Include="DropDownList_control.aspx" />
     <Content Include="HyperLink_Control.aspx" />
     <Content Include="InputBox.aspx" />
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="Button_LinkButton_and_ImageButton_controls.aspx.designer.cs">
       <DependentUpon>Button_LinkButton_and_ImageButton_controls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionStrings.aspx.cs">
+      <DependentUpon>ConnectionStrings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConnectionStrings.aspx.designer.cs">
+      <DependentUpon>ConnectionStrings.aspx</DependentUpon>
     </Compile>
     <Compile Include="DropDownList_control.aspx.cs">
       <DependentUpon>DropDownList_control.aspx</DependentUpon>
