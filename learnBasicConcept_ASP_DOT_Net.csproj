@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ado.aspx" />
     <Content Include="Button_LinkButton_and_ImageButton_controls.aspx" />
     <Content Include="DropDownList_control.aspx" />
     <Content Include="HyperLink_Control.aspx" />
@@ -74,6 +75,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ado.aspx.cs">
+      <DependentUpon>Ado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ado.aspx.designer.cs">
+      <DependentUpon>Ado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Button_LinkButton_and_ImageButton_controls.aspx.cs">
       <DependentUpon>Button_LinkButton_and_ImageButton_controls.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
