@@ -71,8 +71,10 @@
     <Content Include="Button_LinkButton_and_ImageButton_controls.aspx" />
     <Content Include="ConnectionStrings.aspx" />
     <Content Include="DropDownList_control.aspx" />
+    <Content Include="fileUpload.aspx" />
     <Content Include="HyperLink_Control.aspx" />
     <Content Include="InputBox.aspx" />
+    <Content Include="SqlCommand.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +106,13 @@
     <Compile Include="DropDownList_control.aspx.designer.cs">
       <DependentUpon>DropDownList_control.aspx</DependentUpon>
     </Compile>
+    <Compile Include="fileUpload.aspx.cs">
+      <DependentUpon>fileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fileUpload.aspx.designer.cs">
+      <DependentUpon>fileUpload.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HyperLink_Control.aspx.cs">
       <DependentUpon>HyperLink_Control.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,6 +128,13 @@
       <DependentUpon>InputBox.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlCommand.aspx.cs">
+      <DependentUpon>SqlCommand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SqlCommand.aspx.designer.cs">
+      <DependentUpon>SqlCommand.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -45,7 +45,7 @@ namespace learnBasicConcept_ASP_DOT_Net
             {
                 SqlCommand cmd = new SqlCommand("select * from Categories", con);
                 con.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
+                SqlDataReader reader = (SqlDataReader)cmd.ExecuteReader();
                 GridView1.DataSource = reader;
                 GridView1.DataBind();
 

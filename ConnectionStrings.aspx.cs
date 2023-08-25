@@ -14,12 +14,17 @@ namespace learnBasicConcept_ASP_DOT_Net
         protected void Page_Load(object sender, EventArgs e)
         {
            string CS = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
-            using(SqlConnection connection = new SqlConnection(CS))
+            using(SqlConnection Con = new SqlConnection(CS))
             {
-                SqlCommand cmd = new SqlCommand("select * from Categories",connection);
-                connection.Open();
+
+                SqlCommand cmd = new SqlCommand("select * from categories",Con);
+               // SqlCommand cmd = new SqlCommand("select * from Categories",connection);
+               Con.Open();
                 GridView1.DataSource = cmd.ExecuteReader();
-               GridView1.DataBind();
+                GridView1.DataBind();
+               // connection.Open();
+               // GridView1.DataSource = cmd.ExecuteReader();
+               //GridView1.DataBind();
             }
         }
     }
